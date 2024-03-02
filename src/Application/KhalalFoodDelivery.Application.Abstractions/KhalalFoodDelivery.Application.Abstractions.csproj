@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\KhalalFoodDelivery.Application.Models\KhalalFoodDelivery.Application.Models.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SourceKit.Generators.Builder"/>
+    </ItemGroup>
+
+</Project>
