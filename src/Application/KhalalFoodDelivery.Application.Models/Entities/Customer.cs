@@ -2,15 +2,6 @@
 
 public class Customer
 {
-    public Customer(string name, string surname, string email, string password)
-    {
-        Id = Guid.NewGuid();
-        Name = name;
-        Surname = surname;
-        Email = email;
-        Password = password;
-    }
-
     public Guid Id { get; set; }
 
     public string Name { get; set; }
@@ -23,7 +14,5 @@ public class Customer
 
     public List<Order> Orders { get; set; }
 
-    public List<Cart> Carts { get; set; };
-
-    public List<Token> Tokens { get; set; } = new List<Token>();
+    public List<Cart> Carts { get; set; }
 }
