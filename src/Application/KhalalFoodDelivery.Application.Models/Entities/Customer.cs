@@ -1,6 +1,6 @@
 ﻿namespace KhalalFoodDelivery.Application.Models.Entities;
 
-internal class Customer
+public class Customer
 {
     public Customer(string name, string surname, string email, string password)
     {
@@ -21,9 +21,9 @@ internal class Customer
 
     public string Password { get; set; }
 
-    public List<Order> Orders { get; set; } = new List<Order>();
+    public List<Order> Orders { get; set; }
 
-    public List<Cart> Carts { get; set; } = new List<Cart>();
+    public List<Cart> Carts { get; set; };
 
     public List<Token> Tokens { get; set; } = new List<Token>();
 }

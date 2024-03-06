@@ -1,6 +1,6 @@
 ﻿namespace KhalalFoodDelivery.Application.Models.Entities;
 
-internal class Token
+public class Token
 {
     public Token(string tokenValue, DateTime expiryDate, Customer customer)
     {

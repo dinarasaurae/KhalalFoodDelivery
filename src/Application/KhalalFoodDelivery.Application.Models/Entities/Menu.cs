@@ -1,6 +1,6 @@
 ﻿namespace KhalalFoodDelivery.Application.Models.Entities;
 
-internal class Menu
+public class Menu
 {
     public Menu(Restaurant restaurant)
     {
