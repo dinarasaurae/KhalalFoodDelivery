@@ -4,3 +4,4 @@
 Link to Jira: https://khisametdinova-dinara.atlassian.net/jira/software/projects/FDS/boards/1/timeline
 
 Link to notion with contracts: https://bush-twist-d73.notion.site/Halal-Food-Delivery-API-beta-8c2925fbd62f48c78eba9cdfb5f63fee?pvs=4
+ERD: ![image](https://github.com/dinarasaurae/KhalalFoodDelivery/assets/111443590/d5a364ed-95ae-4626-904a-ed5492ddc3f5)
