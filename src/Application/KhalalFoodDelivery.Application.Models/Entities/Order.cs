@@ -8,7 +8,7 @@ public class Order
 
     public Restaurant Restaurant { get; set; }
 
-    public List<OrderItem> Items { get; set; }
+    public List<ItemMenu> Items { get; set; }
 
     public DateTime OrderTime { get; set; }
 }
