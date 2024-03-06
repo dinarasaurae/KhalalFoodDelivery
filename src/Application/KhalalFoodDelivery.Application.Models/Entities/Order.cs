@@ -1,14 +1,15 @@
-﻿namespace KhalalFoodDelivery.Application.Models.Entities;
+﻿using KhalalFoodDelivery.Application.Models.Entities;
 
+namespace KhalalFoodDelivery.Application.Models.Entities;
 public class Order
 {
     public Guid Id { get; set; }
 
-    public Customer Customer { get; set; }
+    public Customer Customer { get; set; } = null!;
 
-    public Restaurant Restaurant { get; set; }
+    public Restaurant Restaurant { get; set; } = null!;
 
-    public List<ItemMenu> Items { get; set; }
+    public IReadOnlyList<OrderItem> Items { get; set; } = null!;
 
     public DateTime OrderTime { get; set; }
 }

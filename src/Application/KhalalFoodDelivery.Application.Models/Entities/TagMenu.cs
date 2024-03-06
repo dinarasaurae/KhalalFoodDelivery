@@ -1,7 +1,7 @@
 ﻿namespace KhalalFoodDelivery.Application.Models.Entities;
 public class TagMenu
 {
-    public string Tag { get; set; } // PK
+    public string Tag { get; set; } = null!; // PK
 
-    public List<ItemMenu> ItemMenus { get; set; }
+    public IReadOnlyList<ItemMenu> ItemMenus { get; set; } = null!;
 }

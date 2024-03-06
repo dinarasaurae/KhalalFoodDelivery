@@ -12,7 +12,7 @@ public class Menu
 
     public Guid Id { get; private set; }
 
-    public List<TagMenu> TagMenus { get; set; }
+    public IReadOnlyList<TagMenu> TagMenus { get; set; }
 
     public string RestaurantAddress { get; private set; } // FK
 

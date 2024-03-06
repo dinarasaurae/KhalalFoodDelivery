@@ -4,11 +4,11 @@ public class Restaurant
 {
     public Guid Id { get; set; }
 
-    public string RestaurntAddress { get; set; }
+    public string RestaurntAddress { get; set; } = null!;
 
-    public string Name { get; set; }
+    public string Name { get; set; } = null!;
 
-    public List<Menu> Menus { get; set; } = new List<Menu>();
+    public IReadOnlyList<Menu> Menus { get; set; } = new List<Menu>();
 
-    public List<Order> Orders { get; set; } = new List<Order>();
+    public IReadOnlyList<Order> Orders { get; set; } = new List<Order>();
 }
