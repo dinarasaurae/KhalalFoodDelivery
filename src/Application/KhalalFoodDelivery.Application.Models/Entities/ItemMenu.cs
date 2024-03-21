@@ -11,7 +11,7 @@ public class ItemMenu
 
     public IReadOnlyList<Cart> Carts { get; } = null!;
 
-    public string TagMenuTag { get; set; } = null!; // FK
+    public Guid MenuId { get; set; }
 
-    public TagMenu TagMenu { get; set; } = null!;
+    public Menu? Menu { get; set; }
 }

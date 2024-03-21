@@ -7,12 +7,12 @@ public class Menu
         Id = Guid.NewGuid();
         Restaurant = restaurant ?? throw new ArgumentNullException(nameof(restaurant));
         RestaurantAddress = restaurant.RestaurntAddress;
-        TagMenus = new List<TagMenu>();
+        ItemMenus = new List<ItemMenu>();
     }
 
     public Guid Id { get; private set; }
 
-    public IReadOnlyList<TagMenu> TagMenus { get; set; }
+    public IReadOnlyList<ItemMenu> ItemMenus { get; set; }
 
     public string RestaurantAddress { get; private set; } // FK
 

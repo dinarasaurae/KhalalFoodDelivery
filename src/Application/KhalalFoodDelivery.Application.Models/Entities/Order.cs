@@ -1,4 +1,6 @@
-﻿namespace KhalalFoodDelivery.Application.Models.Entities;
+﻿using KhalalFoodDelivery.Application.Models.Entities;
+
+namespace KhalalFoodDelivery.Application.Models.Entities;
 public class Order
 {
     public Guid Id { get; set; }
