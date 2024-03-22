@@ -14,7 +14,7 @@ public class Menu
 
     public IReadOnlyList<ItemMenu> ItemMenus { get; set; }
 
-    public string RestaurantAddress { get; private set; } // FK
+    public string? RestaurantAddress { get; private set; } // FK
 
     public Restaurant Restaurant { get; set; }
 }

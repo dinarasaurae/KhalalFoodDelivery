@@ -6,11 +6,11 @@ public class CartItem
 
     public Guid CartId { get; set; }
 
-    public Cart Cart { get; set; } = null!;
+    public Cart? Cart { get; set; }
 
     public Guid MenuItemId { get; set; }
 
-    public ItemMenu ItemMenu { get; set; } = null!;
+    public ItemMenu? ItemMenu { get; set; }
 
     public int Quantity { get; set; }
 }

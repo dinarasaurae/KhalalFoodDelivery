@@ -4,7 +4,7 @@ public class Restaurant
 {
     public Guid Id { get; set; }
 
-    public string RestaurntAddress { get; set; } = null!;
+    public string? RestaurntAddress { get; set; }
 
     public string Name { get; set; } = null!;
 
