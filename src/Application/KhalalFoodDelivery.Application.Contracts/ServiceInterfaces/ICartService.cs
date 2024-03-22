@@ -1,7 +1,12 @@
-﻿namespace KhalalFoodDelivery.Application.Contracts.ServiceInterfaces;
+﻿using KhalalFoodDelivery.Application.Contracts.ServiceInterfaces.DTO;
+using KhalalFoodDelivery.Application.Models.Entities;
+
+namespace KhalalFoodDelivery.Application.Contracts.ServiceInterfaces;
 internal interface ICartService
 {
-    Task<CartResponse> AddItemToCartAsync(AddItemRequest request);
-    Task<CartResponse> UpdateCartAsync(UpdateCartRequest request) ;
-    Task<>
+    List<ItemMenuDto> GetCartItems(Guid userPk);
+
+    void EmptyCart(Guid userPk);
+
+    CartDto UpdateCart(Guid userPk, List<ItemMenu> itemList);
 }
