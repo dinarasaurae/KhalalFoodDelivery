@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace KhalalFoodDelivery.Application.Models.Entities;
+﻿namespace KhalalFoodDelivery.Application.Models.Entities;
 public class Cart
 {
     public Guid Id { get; set; }

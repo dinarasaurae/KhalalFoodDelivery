@@ -1,5 +1,4 @@
 ﻿using KhalalFoodDelivery.Application.Contracts.ServiceInterfaces.DTO;
-using KhalalFoodDelivery.Application.Models.Entities;
 
 namespace KhalalFoodDelivery.Application.Contracts.ServiceInterfaces;
 internal interface IRestaurantService

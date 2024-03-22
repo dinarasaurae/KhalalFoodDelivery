@@ -19,7 +19,6 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructurePersistence();
 builder.Services
     .AddControllers()
-    .AddNewtonsoftJson()
     .AddPresentationHttp();
 
 builder.Services.AddSwaggerGen().AddEndpointsApiExplorer();
