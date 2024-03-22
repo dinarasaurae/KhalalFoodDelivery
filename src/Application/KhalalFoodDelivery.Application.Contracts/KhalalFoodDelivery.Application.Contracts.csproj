@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <ItemGroup>
-        <ProjectReference Include="..\KhalalFoodDelivery.Application.Models\KhalalFoodDelivery.Application.Models.csproj" />
+        <ProjectReference Update="..\KhalalFoodDelivery.Application.Models\KhalalFoodDelivery.Application.Models.csproj" />
     </ItemGroup>
 
 </Project>
