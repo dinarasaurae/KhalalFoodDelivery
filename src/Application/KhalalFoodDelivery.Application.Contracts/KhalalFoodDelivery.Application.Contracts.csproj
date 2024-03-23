@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <ItemGroup>
+        <ProjectReference Update="..\KhalalFoodDelivery.Application.Models\KhalalFoodDelivery.Application.Models.csproj" />
         <ProjectReference Include="..\KhalalFoodDelivery.Application.Models\KhalalFoodDelivery.Application.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Itmo.Dev.Platform.Common" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" />
     </ItemGroup>
 
 </Project>
